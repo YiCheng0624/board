@@ -12,6 +12,4 @@
     mysqli_query($oLink,"INSERT INTO Data (Name,Message) VALUES ('$sName','$sMessage')");
     // echo json_encode(array(' 連線成功 '=>$name));
     mysqli_close($oLink);
-    header('Location: http://localhost/board.php');
-    exit();
 ?>

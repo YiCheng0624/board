@@ -132,7 +132,7 @@
                 });
                 $.ajax({
                     method: "POST",
-                    url: "http://localhost/create.php",
+                    url: "http://localhost/board/create.php",
                     data: {
                         "nametext": sNametext,
                         "messagetext": sMessagetext,
@@ -153,7 +153,7 @@
                 });
                 $.ajax({
                     method: "POST",
-                    url: "http://localhost/delete.php",
+                    url: "http://localhost/board/delete.php",
                     data: {
                         "deleteID":iID,
                     },
@@ -173,7 +173,7 @@
                     });
                     $.ajax({
                         method: "POST",
-                        url: "http://localhost/update.php",
+                        url: "http://localhost/board/update.php",
                         data: {
                             "updateID": iCHID,
                             "show": "",
@@ -201,7 +201,7 @@
                     });
                     $.ajax({
                         method: "POST",
-                        url: "http://localhost/update.php",
+                        url: "http://localhost/board/update.php",
                         data: {
                             "updateID": iCHID,
                             "NewName": sNewName,
